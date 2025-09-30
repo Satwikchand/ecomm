@@ -57,4 +57,4 @@ jobs:
           app-name: 'Satwik-App'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_89BE0BF4894D494EB9EF147588B6CDF5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7F4A21DCF8B249E484ABCCFDE45481CF }}
