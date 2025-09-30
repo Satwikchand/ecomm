@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy PHP app to Azure Web App - SatwikApp
+name: Build and deploy PHP app to Azure Web App - Satwikapp
 
 on:
   push:
@@ -54,7 +54,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'SatwikApp'
+          app-name: 'Satwikapp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8481A80904FA4875BA0E36825D57095B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CBBAB19961EB4BF5981FCC39A1CC5846 }}
